@@ -92,7 +92,7 @@
     <aws-v2.version>2.25.49</aws-v2.version>
 
     <aws.version>1.12.720</aws.version>
-    <checkstyle.version>10.16.0</checkstyle.version>
+    <checkstyle.version>10.17.0</checkstyle.version>
     <commons-codec.version>1.15</commons-codec.version>
     <commons-io.version>2.16.1</commons-io.version>
     <docker-builder.image.name>s3mock-buildx</docker-builder.image.name>
@@ -105,23 +105,23 @@
     <junit-jupiter.version>5.7.2</junit-jupiter.version>
     <junit.version>4.13.2</junit.version>
     <kotlin.version>1.9.24</kotlin.version>
-    <license-maven-plugin-git.version>4.4</license-maven-plugin-git.version>
-    <maven-checkstyle-plugin.version>3.3.1</maven-checkstyle-plugin.version>
-    <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
+    <license-maven-plugin-git.version>4.5</license-maven-plugin-git.version>
+    <maven-checkstyle-plugin.version>3.4.0</maven-checkstyle-plugin.version>
+    <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
     <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
     <maven-deploy-plugin.version>3.1.2</maven-deploy-plugin.version>
-    <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
-    <maven-failsafe-plugin.version>3.2.5</maven-failsafe-plugin.version>
+    <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+    <maven-failsafe-plugin.version>3.3.0</maven-failsafe-plugin.version>
     <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
     <maven-install-plugin.version>3.1.2</maven-install-plugin.version>
-    <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
-    <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
+    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+    <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
     <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
     <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
     <mockito-kotlin.version>5.3.1</mockito-kotlin.version>
-    <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+    <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- Run Docker build by default -->
     <skipDocker>false</skipDocker>
@@ -547,7 +547,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>3.3.0</version>
         </plugin>
         <plugin>
           <!--
